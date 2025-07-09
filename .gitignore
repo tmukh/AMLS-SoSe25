@@ -1,0 +1,27 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore data and outputs
+*.bin
+*.npy
+*.pkl
+*.pth
+*.csv
+
+# Jupyter/IPython stuff
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
